@@ -2,7 +2,7 @@ $(document).ready(()=>{
     var typed = new Typed('.hhh', {
         strings: ['Hi guys,', 'We can find weather using latitude and longitude...!'],
         smartBackspace: true,
-        typeSpeed:110
+        typeSpeed:80
       });
     var a;
     $("#i1").on('keyup',function(e){
