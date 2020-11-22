@@ -11,14 +11,12 @@ $(document).ready(()=>{
 
     });
     $("#i2").on('keyup',(e)=>{
-        if(e.key==32){
         var b = e.target.value;
-        }
         
          $.ajax({
 
 
-             url:`http://api.openweathermap.org/data/2.5/weather?lat=${a}&lon=${b}&appid=7a68dd89fbc93656093f7dd618da8490`,
+             url:`http://api.openweathermap.org/data/2.5/weather?lat=${a}&lon=${b}&appid=7a68dd89fbc93656093f7dd618da8490&units=metric`,
             fail:()=>{
                 confirm("enter valid data to proceed");
                 return true;
