@@ -32,7 +32,7 @@ $(document).ready(()=>{
 
             $(".viewer1").html(
                 `<div class="card2" style="width: 20rem;">
-                     <img src="http://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png" class="card-img1">
+                     <img src="https://openweathermap.org/img/wn/${weatherdata.weather[0].icon}@2x.png" class="card-img1">
                     <div class="card1">  
     <pre class="card-text1"> Weather<b>:${weatherdata.weather[0].description}</b>
  Temperature is about at <b>${weatherdata.main.temp}&#8451</b> but
