@@ -9,7 +9,7 @@ $(document).ready(function(){
      const Api="7a68dd89fbc93656093f7dd618da8490";
      $.ajax(
        {
-         url:`http://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${Api}&units=metric`
+         url:`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${Api}&units=metric`
        }
      ).done((dataval)=>{
       $(".viewer").html(
