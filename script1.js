@@ -16,7 +16,7 @@ $(document).ready(()=>{
          $.ajax({
 
 
-             url:`http://api.openweathermap.org/data/2.5/weather?lat=${a}&lon=${b}&appid=7a68dd89fbc93656093f7dd618da8490&units=metric`,
+             url:`https://api.openweathermap.org/data/2.5/weather?lat=${a}&lon=${b}&appid=7a68dd89fbc93656093f7dd618da8490&units=metric`,
 
          }).done(function(weatherdata){
             $('.viewer1').css({
